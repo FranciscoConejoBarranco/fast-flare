@@ -30,22 +30,23 @@ const projects = (await getCollection('work'))
 		<div class="wrapper stack gap-8 lg:gap-20">
 			<header class="hero">
 				<Hero
-					title="Hello, my name is Jeanine White"
-					tagline="I am a Creative Developer who is currently based in Portland, Oregon."
+					title="Hi, I’m Armando Garrido"
+					tagline="Helping you achieve peak performance through expert training and nutrition."
 					align="start"
-				>
+					>
 					<div class="roles">
-						<Pill><Icon icon="code" size="1.33em" /> Developer</Pill>
-						<Pill><Icon icon="microphone-stage" size="1.33em" /> Speaker</Pill>
-						<Pill><Icon icon="pencil-line" size="1.33em" /> Writer</Pill>
+						<Pill><Icon icon="running" size="1.33em" /> Runner</Pill>
+						<Pill><Icon icon="apple" size="1.5em" /> Nutrition</Pill>
+						<Pill><Icon icon="biceps" size="1.33em" /> strength</Pill>
 					</div>
 				</Hero>
 
 				<img
-					alt="Jeanine White smiling in a red plaid shirt and tortoise shell glasses"
+					alt="Armando Garrido, personal trainer and athlete, performing a calisthenics move outdoors"
 					width="480"
 					height="620"
 					src="/assets/portrait.jpg"
+					class="responsive-img"
 				/>
 			</header>
 
@@ -55,8 +56,8 @@ const projects = (await getCollection('work'))
 		<main class="wrapper stack gap-20 lg:gap-48">
 			<section class="section with-background with-cta">
 				<header class="section-header stack gap-2 lg:gap-4">
-					<h3>Selected Work</h3>
-					<p>Take a look below at some of my featured work for clients from the past few years.</p>
+					<h3>Services</h3>
+					<p>Explore the personalized fitness plans I offer to help you achieve your health and fitness goals.</p>
 				</header>
 
 				<div class="gallery">
@@ -72,7 +73,7 @@ const projects = (await getCollection('work'))
 				</div>
 
 				<div class="cta">
-					<CallToAction href="/work/">
+					<CallToAction href="/work/" transition:animate="fade" >
 						View All
 						<Icon icon="arrow-right" size="1.2em" />
 					</CallToAction>
@@ -81,17 +82,17 @@ const projects = (await getCollection('work'))
 
 			<section class="section with-background bg-variant">
 				<header class="section-header stack gap-2 lg:gap-4">
-					<h3>Mentions</h3>
+					<h3>Achievements</h3>
 					<p>
-						I have been fortunate enough to receive praise for my work in several publications. Take
-						a look below to learn more.
+						Highlights from my journey as a personal trainer, showcasing my expertise and dedication to fitness.
+
 					</p>
 				</header>
 
 				<div class="gallery">
 					<Grid variant="small">
 						{
-							['Medium', 'BuzzFeed', 'The Next Web', 'awwwards.', 'TechCrunch'].map((brand) => (
+							['Certified Personal Trainer', 'Helped 50+ clients achieve their fitness goals', 'Ex-national athlete',].map((brand) => (
 								<li class="mention-card">
 									<p>{brand}</p>
 								</li>

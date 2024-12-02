@@ -1,35 +1,40 @@
 ---
-title: Markdown Mystery Tour
-publishDate: 2020-03-02 00:00:00
-img: /assets/stock-1.jpg
-img_alt: Iridescent ripples of a bright blue and pink liquid
+title: Monthly Personal Training
+publishDate: 2024-12-02 00:00:00
+img: /assets/personal-training.jpg
+img_alt: Personal trainer working with a client
 description: |
-  We designed a whodunnit-style game to introduce Markdown formatting. Suspense — suspicion — syntax!
+  A comprehensive monthly fitness plan designed to help you achieve your goals. With personalized workout routines and calorie tracking, you'll receive constant support throughout your journey.
 tags:
-  - Design
-  - Dev
-  - User Testing
+  - Fitness
+  - Personal Training
+  - Health
 ---
 
-## Level-two heading
+## Monthly Personal Training Plan
 
-> Tell me and I forget. Teach me and I remember. Involve me and I learn.
+> "The body achieves what the mind believes."
 
-Lorem ipsum dolor sit amet, <a href="https://astro.build/">Astro</a> makes people happy. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Proin nibh nisl condimentum id venenatis a condimentum vitae. Dapibus ultrices in iaculis nunc. Arcu odio ut sem nulla pharetra diam sit amet. Diam quis enim lobortis scelerisque fermentum dui faucibus in ornare.
+With our **Monthly Personal Training Plan**, you’ll receive customized workout routines and nutrition guidance tailored to your specific fitness goals. This plan is designed for those who want to see real, sustainable changes with the help of a personal trainer.
 
-Arcu dui vivamus arcu felis bibendum ut tristique et egestas. Eget gravida cum sociis natoque penatibus. Cras fermentum odio eu feugiat pretium nibh. Proin nibh nisl condimentum id venenatis. Porta nibh venenatis cras sed felis eget velit. Id diam vel quam elementum pulvinar etiam non.
+### What’s Included in the Plan:
 
-### Level-three heading
+- **Personalized Workouts**: Tailored exercises that evolve based on your progress, targeting your fitness goals whether it's building muscle, losing weight, or improving endurance.
+- **Calorie Tracking**: We help you monitor your daily caloric intake, ensuring you're fueling your body properly to achieve your goals.
+- **Weekly Check-ins**: Regular progress tracking through fitness assessments and consultations to adjust your plan as needed.
+- **Motivation & Support**: We keep you motivated with tips, encouragement, and adjustments to your program to ensure you're always progressing.
 
-Ultrices tincidunt arcu non sodales neque sodales ut. Sed enim ut sem viverra aliquet eget sit amet. Lacus luctus accumsan tortor posuere ac ut consequat semper viverra. Viverra accumsan in nisl nisi scelerisque eu ultrices. In massa tempor nec feugiat nisl pretium fusce.
+### Benefits of Working with a Personal Trainer:
 
-### Level-three heading
+- **Expert Guidance**: Avoid common mistakes and injuries with professional supervision.
+- **Accountability**: Regular check-ins and support to keep you on track.
+- **Consistency**: A structured plan that keeps you focused and ensures steady progress.
 
-Sed pulvinar porttitor mi in ultricies. Etiam non dolor gravida eros pulvinar pellentesque et dictum ex. Proin eu ornare ligula, sed condimentum dui. Vivamus tincidunt tellus mi, sed semper ipsum pharetra a. Suspendisse sollicitudin at sapien nec volutpat. Etiam justo urna, laoreet ac lacus sed, ultricies facilisis dolor. Integer posuere, metus vel viverra gravida, risus elit ornare magna, id feugiat erat risus ullamcorper libero. Proin vitae diam auctor, laoreet lorem vitae, varius tellus.
+![Personal Training Plan]( /assets/personal-training.jpg )
 
-Aenean pretium purus augue, ut bibendum erat convallis quis. Cras condimentum quis velit ac mollis. Suspendisse non purus fringilla, venenatis nisl porta, finibus odio. Curabitur aliquet metus faucibus libero interdum euismod. Morbi sed magna nisl. Morbi odio nibh, facilisis vel sapien eu, tempus tincidunt erat. Nullam erat velit, sagittis at purus quis, tristique scelerisque tortor. Pellentesque lacinia tortor id est aliquam viverra. Vestibulum et diam ac ipsum mollis fringilla.
+Ready to get started? [Contact me](https://wa.me/+14163191936) today to book your first session!
 
-#### Level-four heading
+#### Price
 
-- We noted this
-- And also this other point
+- The price for this plan is **120 CAD** monthly.
+
