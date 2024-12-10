@@ -69,27 +69,47 @@ import Icon from './Icon.astro';
 
 <script>
 	class ThemeToggle extends HTMLElement {
-		constructor() {
-			super();
-
-			const button = this.querySelector('button')!;
-
-			/** Set the theme to dark/light mode. */
-			const setTheme = (dark: boolean) => {
-				document.documentElement.classList[dark ? 'add' : 'remove']('theme-dark');
-				button.setAttribute('aria-pressed', String(dark));
-			};
-
-			// Toggle the theme when a user clicks the button.
-			button.addEventListener('click', () => setTheme(!this.isDark()));
-
-			// Initialize button state to reflect current theme.
-			setTheme(this.isDark());
+	  constructor() {
+		super();
+  
+		// Buscar el botón dentro del componente y manejar posibles valores nulos
+		const button = this.querySelector('button');
+		if (!button) {
+		  console.error("No se encontró el botón dentro del ThemeToggle.");
+		  return;
 		}
-
-		isDark() {
-			return document.documentElement.classList.contains('theme-dark');
+  
+		// Verificar si el tema oscuro está activo
+		const isDarkMode = (): boolean =>
+		  document.documentElement.classList.contains('theme-dark');
+  
+		// Aplicar el tema y guardarlo en localStorage
+		const setTheme = (dark: boolean): void => {
+		  const theme = dark ? 'theme-dark' : 'theme-light';
+		  document.documentElement.classList.remove('theme-dark', 'theme-light');
+		  document.documentElement.classList.add(theme);
+		  localStorage.setItem('theme', theme); // Guardar el tema en localStorage
+		  button.setAttribute('aria-pressed', String(dark)); // Actualizar estado del botón
+		};
+  
+		// Cambiar el tema al hacer clic en el botón
+		button.addEventListener('click', () => {
+		  setTheme(!isDarkMode());
+		});
+  
+		// Inicializar el estado del botón y aplicar el tema guardado
+		const savedTheme = localStorage.getItem('theme');
+		if (savedTheme) {
+		  setTheme(savedTheme === 'theme-dark');
+		} else {
+		  // Tema por defecto según preferencia del sistema
+		  const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+		  setTheme(prefersDark);
 		}
+	  }
 	}
+  
+	// Registrar el componente como un elemento personalizado
 	customElements.define('theme-toggle', ThemeToggle);
-</script>
+  </script>
+  

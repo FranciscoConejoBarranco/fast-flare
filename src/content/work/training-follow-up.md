@@ -4,7 +4,7 @@ publishDate: 2024-12-02 00:00:00
 img: /assets/training-follow-up.jpg
 img_alt: Personal trainer reviewing progress with a client
 description: |
-  A monthly training plan with personalized workout routines and regular follow-ups to track your progress and stay on track.
+  A monthly training plan with personalized workout routines and regular follow-ups to track your progress and and get your goals.
 tags:
   - Fitness
   - Training

@@ -1,5 +1,5 @@
 ---
-title: Monthly Personal Training
+title: Monthly Training with Follow-Up + Nutrition
 publishDate: 2024-12-02 00:00:00
 img: /assets/personal-training.jpg
 img_alt: Personal trainer working with a client
@@ -9,6 +9,7 @@ tags:
   - Fitness
   - Personal Training
   - Health
+  - Nutrition
 ---
 
 ## Monthly Personal Training Plan
